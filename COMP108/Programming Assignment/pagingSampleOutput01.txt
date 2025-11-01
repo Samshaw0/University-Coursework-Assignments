@@ -1,0 +1,17 @@
+
+Enter the cache size (1-10): Enter the content of the cache (3 different +ve integers): 
+Enter the number of page requests: (1-100): Enter 6 +ve integers: 
+Cache content: 
+20 30 10 
+Request sequence: 
+20 5 30 10 5 20 
+
+evictFIFO
+hmhhhm
+4 h 2 m
+Cache: 5,20,10,
+
+evictLRU
+hmmmhm
+2 h 4 m
+Cache: 10,5,20,

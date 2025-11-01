@@ -1,0 +1,20 @@
+
+Enter the initial number of files in the cabinet (1-10): Enter the initial file IDs in the cabinet (3 different +ve integers): 
+Enter the number of file requests (1=100): Enter the request file IDs (20 +ve integers): 
+Initial cabinet:
+20 10 30 
+Request sequence:
+10 20 30 10 60 20 30 30 30 30 40 40 40 40 50 50 50 50 20 50 
+
+appendIfMiss
+Comparisons: 2,1,3,2,3,1,3,3,3,3,4,5,5,5,5,6,6,6,1,6,
+17 h 3 m
+From head to tail: 20,10,30,60,40,50,
+From tail to head: 50,40,60,30,10,20,
+
+freqCount
+Comparisons: 2,2,3,1,3,2,3,3,1,1,4,5,4,4,5,6,5,5,5,3,
+17 h 3 m
+From head to tail: 30,50,40,20,10,60,
+From tail to head: 60,10,20,40,50,30,
+Frequency from head to tail: 6,5,4,4,3,1,
